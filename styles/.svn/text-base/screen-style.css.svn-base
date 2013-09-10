@@ -1,0 +1,37 @@
+/* ================================
+    Layout
+   ================================ */
+
+body { background-color: #ffffff; color: #000000; font-family: Arial, Helvetica, sans-serif; margin: 0px; padding: 0px; font-size: 0px; line-height: 0px; }
+.layout-center { margin: 0px auto; width: 955px; position: relative; }
+#header { }
+#page { }
+#footer { }
+
+/* ================================
+    Menu
+   ================================ */
+
+.thunder-menu { }
+.menu-item { float: left; height: 20px; position: relative; }
+.menu-dropdown { display: none; position: absolute; top: 100%; left: 0px; }
+.menu-dropdown-on {display:block;}
+.menu-dropdown a { display: block; }
+
+/* ================================
+    Content
+   ================================ */
+
+.content a { color: #00f; }
+
+/* ================================
+    Misc
+   ================================ */
+
+a img { border: 0px;}
+textarea { resize: none;}
+.clearer { clear: both; line-height: 0px; font-size: 0px; width: 0px; height: 0px;}
+h1, h2, h3, h4, h5, h6, p, form, blockquote { margin: 0px; padding: 0px;}
+ul.list-flat, .list-flat li, .list-flat ul { margin: 0px; padding: 0px; list-style: none; display: block; }
+.column { float: left; position: relative; }
+.thunder-test { display: block; visibility: visible; position: relative; top: 0px; left: 0px; width: 100px; height: 100px; z-index: 90000; color: #000; font-size: 13px; line-height: 16px; font-weight: bold; float: none; clear: both; overflow: visible; }

@@ -1,0 +1,33 @@
+html {
+	font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;
+}
+
+#wrap {
+	min-width: $breakpoint-small;
+	overflow: hidden;
+	& > header {
+		
+	}
+	& > footer {
+		
+	}
+}
+
+.page-segment {
+	max-width: $breakpoint-large; margin: 0 auto;
+}
+
+html, button, input, select, textarea {
+	font-family: $font-default;
+}
+
+body {
+	margin: 0; font-size: 1em; line-height: 1.4em; color: black; background: white;
+}
+
+.main-content {
+	color: #333;
+	a {
+		color: $color-primary; @include hover-underline(remove);
+	}
+}
