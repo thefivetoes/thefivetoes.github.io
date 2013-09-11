@@ -232,7 +232,8 @@ body {
 }
 
 .header-subtitle {
-  display: block;
+  /* display: block; */
+  display: none;
   color: #91ccf2;
   text-align: left;
 }
