@@ -5,16 +5,15 @@ html {
 #wrap {
 	min-width: $breakpoint-small;
 	overflow: hidden;
-	& > header {
-		
-	}
-	& > footer {
-		
-	}
 }
 
 .page-segment {
-	max-width: $breakpoint-large; margin: 0 auto;
+  width: 96%;
+  margin: 0 2%;
+  @include breakpoint($breakpoint-large){
+    max-width: $breakpoint-large; 
+    margin: 0 auto;  
+  }
 }
 
 html, button, input, select, textarea {

@@ -166,6 +166,17 @@ html {
   overflow: hidden;
 }
 
+.page-segment {
+  width: 96%;
+  margin: 0 2%;
+}
+@media (min-width: 60em) {
+  .page-segment {
+    max-width: 60em;
+    margin: 0 auto;
+  }
+}
+
 html, button, input, select, textarea {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -179,64 +190,60 @@ body {
 }
 
 .main-content {
-  color: black;
+  color: #333;
 }
 .main-content a {
-  color: blue;
+  color: #91ccf2;
   text-decoration: underline;
 }
 .main-content a:hover {
   text-decoration: none;
 }
 
-@media print {
-  * {
-    background: transparent !important;
-    color: black !important;
-    box-shadow: none !important;
-    text-shadow: none !important;
-    filter: none !important;
-    -ms-filter: none !important;
-  }
-
-  a, a:visited {
-    text-decoration: underline;
-  }
-
-  a[href]:after {
-    content: " (" attr(href) ")";
-  }
-
-  abbr[title]:after {
-    content: " (" attr(title) ")";
-  }
-
-  pre, blockquote {
-    page-break-inside: avoid;
-  }
-
-  thead {
-    display: table-header-group;
-  }
-
-  tr, img {
-    page-break-inside: avoid;
-  }
-
-  img {
-    max-width: 100% !important;
-  }
-
-  @page {
-    margin: 0.5cm;
+#wrap > header > .page-segment {
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #eee;
 }
 
-  p, h2, h3 {
-    orphans: 3;
-    widows: 3;
+.header-title {
+  display: block;
+  font-size: 3.5em;
+  line-height: 1em;
+  margin-top: .1em;
+  text-align: left;
+  text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.5);
+}
+.header-title a {
+  text-decoration: none;
+  color: #ccc;
+}
+@media (min-width: 40em) {
+  .header-title {
+    font-size: 5em;
+    line-height: 1em;
   }
+}
+@media (min-width: 60em) {
+  .header-title {
+    font-size: 6em;
+    line-height: 1em;
+  }
+}
 
-  h2, h3 {
-    page-break-after: avoid;
+.header-subtitle {
+  display: block;
+  color: #91ccf2;
+  text-align: left;
+}
+@media (min-width: 60em) {
+  .header-subtitle {
+    margin-left: 1em;
   }
+}
+
+#wrap > footer > .page-segment {
+  padding-top: 1em;
+  margin-top: 1em;
+  border-top: 1px solid #eee;
 }
