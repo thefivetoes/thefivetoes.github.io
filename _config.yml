@@ -1,3 +1,4 @@
 name: thefivetoes
 markdown: redcarpet
 pygments: true
+exclude: ["vendor", "Gemfile", "Gemfile.lock", "readme.md", "*.scss"]
