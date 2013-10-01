@@ -1,0 +1,44 @@
+.posts {
+  margin: 0;
+  padding: 0;
+  
+  & li {
+   list-style: none; 
+  }
+}
+
+.post {
+  list-style: none;  
+  padding: 1%;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #eee;
+  max-width: 35em;
+}
+
+.post-title {
+  display: inline-block;
+  font-size: 1.75em;
+  line-height: 1.2em;
+  margin: 0 0 .2em 0;
+  line-height: 1.2em;
+  
+  a {
+    color: $color-primary;
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: underline; 
+    }
+  }
+}
+
+.post-date {
+  display: inline-block;
+  font-size: .7em;
+  line-height: 1.2em;
+  color: #666; 
+}
+
+.post-content { 
+  padding: 1%;
+}

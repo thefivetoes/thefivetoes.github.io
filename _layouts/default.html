@@ -22,14 +22,7 @@
 			</header>
 			<div class="page-body">
 			  <div class="page-segment">
-  			  <h1>Recent Posts</h1>
-          <ul class="home-page-post-listing">
-            {% for post in site.posts do %}
-            <li class="home-page-post">
-              <a class="post-name" href="{{ post.url }}">{{ post.title }}</a><span class="post-date">{{ post.date }}</span>
-            </li>
-            {% endfor %}
-          </ul>
+  			  {{content}}
 			  </div>
 			</div>
 			<footer>
