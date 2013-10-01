@@ -7,10 +7,10 @@
 						 No right is granted to ADDITIONAL PARTY to sell, distribute, modify or otherwise transfer the following source code without explicit written permission by CLIENT or thunder::tech.
 
 	@codekit-prepend "thunder.js"
-	
+	@codekit-prepend "polyfill.svg.js"
 	Not in use:
 	
-	"polyfill.svg.js"
+	
 	"polyfill.placeholder.js"
 	"polyfill.console.js"
 	"web.add-jsonp.js"

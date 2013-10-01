@@ -2,16 +2,17 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8322",
   "files" : {
-    "\/scripts\/jquery-1.7.2.min.js" : {
+    "\/styles\/modules\/_home.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scripts\/jquery-1.7.2.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/scripts\/jquery-1.7.2.min.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/styles\/modules\/_home.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/styles\/modules\/_home.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/styles\/globals.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -24,6 +25,29 @@
       "outputAbbreviatedPath" : "\/styles\/globals.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/styles\/modules\/_header.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/styles\/modules\/_header.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/styles\/modules\/_header.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/scripts\/jquery-1.7.2.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scripts\/jquery-1.7.2.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/scripts\/jquery-1.7.2.min.min.js",
+      "fileType" : 64
     },
     "\/styles\/site.legacy.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -71,26 +95,17 @@
       "outputAbbreviatedPath" : "\/scripts\/modernizr-2.5.3.min.min.js",
       "fileType" : 64
     },
-    "\/styles\/_footer.scss" : {
+    "\/styles\/modules\/_footer.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/styles\/_footer.scss",
+      "inputAbbreviatedPath" : "\/styles\/modules\/_footer.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/styles\/_footer.css",
+      "outputAbbreviatedPath" : "\/styles\/modules\/_footer.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/_layouts\/default.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_layouts\/default.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/styles\/overrides.css" : {
       "ignoreWasSetByUser" : 0,
@@ -98,15 +113,6 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/styles\/overrides.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/_site\/styles\/site.min.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/styles\/site.min.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
@@ -121,16 +127,23 @@
       "outputAbbreviatedPath" : "\/_site\/scripts\/site.min.min.js",
       "fileType" : 64
     },
-    "\/_site\/scripts\/modernizr-2.5.3.min.js" : {
+    "\/_site\/styles\/site.min.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/scripts\/modernizr-2.5.3.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/_site\/scripts\/modernizr-2.5.3.min.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/_site\/styles\/site.min.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/_layouts\/default.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_layouts\/default.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/_site\/scripts\/overrides.js" : {
       "ignoreWasSetByUser" : 0,
@@ -151,6 +164,17 @@
       "inputAbbreviatedPath" : "\/_layouts\/post.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/_site\/scripts\/modernizr-2.5.3.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/scripts\/modernizr-2.5.3.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/_site\/scripts\/modernizr-2.5.3.min.min.js",
+      "fileType" : 64
     },
     "\/_site\/styles\/overrides.css" : {
       "ignoreWasSetByUser" : 0,
@@ -173,24 +197,26 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/styles\/site.min.css" : {
+    "\/_site\/scripts\/jquery-1.7.2.min.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/styles\/site.min.css",
-      "outputAbbreviatedPath" : "\/No Output Path",
-      "fileType" : 16
-    },
-    "\/_site\/scripts\/jquery-1.7.2.min.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/scripts\/jquery-1.7.2.min.min.js",
+      "inputAbbreviatedPath" : "\/_site\/scripts\/jquery-1.7.2.min.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/_site\/scripts\/jquery-1.7.2.min.min.min.js",
+      "outputAbbreviatedPath" : "\/_site\/scripts\/jquery-1.7.2.min.min.js",
+      "fileType" : 64
+    },
+    "\/scripts\/overrides.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scripts\/overrides.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/scripts\/overrides.min.js",
       "fileType" : 64
     },
     "\/_site\/index.html" : {
@@ -222,6 +248,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/styles\/site.legacy.min.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/styles\/site.legacy.min.css",
+      "outputAbbreviatedPath" : "\/No Output Path",
+      "fileType" : 16
+    },
     "\/template.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -251,39 +286,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/scripts\/overrides.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scripts\/overrides.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/scripts\/overrides.min.js",
-      "fileType" : 64
-    },
-    "\/styles\/_header.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/styles\/_header.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/styles\/_header.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_site\/scripts\/jquery-1.7.2.min.js" : {
+    "\/_site\/template.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/scripts\/jquery-1.7.2.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/_site\/scripts\/jquery-1.7.2.min.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/_site\/template.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -294,23 +304,25 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/styles\/site.legacy.min.css" : {
+    "\/_site\/scripts\/jquery-1.7.2.min.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/styles\/site.legacy.min.css",
-      "outputAbbreviatedPath" : "\/No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/_site\/scripts\/jquery-1.7.2.min.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/_site\/scripts\/jquery-1.7.2.min.min.min.js",
+      "fileType" : 64
     },
-    "\/_site\/template.html" : {
+    "\/styles\/site.min.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/template.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/styles\/site.min.css",
+      "outputAbbreviatedPath" : "\/No Output Path",
+      "fileType" : 16
     },
     "\/_site\/scripts\/modernizr-2.5.3.min.min.js" : {
       "ignoreWasSetByUser" : 0,
