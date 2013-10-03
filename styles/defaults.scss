@@ -19,16 +19,23 @@ html {
 }
 
 html, button, input, select, textarea {
-	font-family: $font-default;
+	font-family: $font-serif;
+	color: #666;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-sans;
+  color: #555;
 }
 
 body {
-	margin: 0; font-size: 1em; line-height: 1.4em; color: black; background: white;
+	margin: 0; font-size: 1em; line-height: 1.4em; background: white;
 }
 
-.main-content {
-	color: #333;
-	a {
-		color: $color-primary; @include hover-underline(remove);
-	}
+a {
+  -webkit-transition: all 200ms ease-out;
+  -moz-transition: all 200ms ease-out;
+  -ms-transition: all 200ms ease-out;
+  -o-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
 }

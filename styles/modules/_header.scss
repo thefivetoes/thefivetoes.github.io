@@ -4,12 +4,13 @@
   border-bottom: 1px solid #eee;
 }
 .header-title {
+  font-family: $font-logo;
   display: block;
   font-size: 3.5em;
   line-height: 1em;
   margin-top: .1em;
-  text-align: left;
-  text-shadow: -1px -1px 0px rgba(0,0,0,0.5);
+  text-align: center;
+  text-shadow: -1px -1px 1px rgba(0,0,0,0.5);
   
   a {
     text-decoration: none;
@@ -23,12 +24,14 @@
   @include breakpoint($breakpoint-large){
     font-size: 6em;
     line-height: 1em;
+    width: 72%;
+    margin-left: 25%;
   }
 }
 .header-subtitle {
-  /* display: block; */
+  //display: block;
   display: none;
-  color: $color-primary;
+  color: $color-a;
   text-align: left;
   
   

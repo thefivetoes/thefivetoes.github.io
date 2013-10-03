@@ -180,26 +180,28 @@ html {
 }
 
 html, button, input, select, textarea {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto Slab", serif;
+  color: #666;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Fjalla One", sans-serif;
+  color: #555;
 }
 
 body {
   margin: 0;
   font-size: 1em;
   line-height: 1.4em;
-  color: black;
   background: white;
 }
 
-.main-content {
-  color: #333;
-}
-.main-content a {
-  color: #91ccf2;
-  text-decoration: underline;
-}
-.main-content a:hover {
-  text-decoration: none;
+a {
+  -webkit-transition: all 200ms ease-out;
+  -moz-transition: all 200ms ease-out;
+  -ms-transition: all 200ms ease-out;
+  -o-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
 }
 
 #wrap > header > .page-segment {
@@ -209,12 +211,13 @@ body {
 }
 
 .header-title {
+  font-family: Arial, Helvetica, sans-serif;
   display: block;
   font-size: 3.5em;
   line-height: 1em;
   margin-top: .1em;
-  text-align: left;
-  text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.5);
 }
 .header-title a {
   text-decoration: none;
@@ -230,11 +233,12 @@ body {
   .header-title {
     font-size: 6em;
     line-height: 1em;
+    width: 72%;
+    margin-left: 25%;
   }
 }
 
 .header-subtitle {
-  /* display: block; */
   display: none;
   color: #91ccf2;
   text-align: left;
@@ -245,9 +249,29 @@ body {
   }
 }
 
+.sidebar {
+  background: #f0f;
+  height: 300px;
+}
+@media (min-width: 60em) {
+  .sidebar {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+  }
+}
+
 .posts {
   margin: 0;
   padding: 0;
+}
+@media (min-width: 60em) {
+  .posts {
+    display: inline-block;
+    margin-left: 2%;
+    width: 72%;
+    vertical-align: top;
+  }
 }
 .posts li {
   list-style: none;
@@ -260,6 +284,15 @@ body {
   border-bottom: 1px solid #eee;
   max-width: 35em;
 }
+.post a {
+  color: #aa99f4;
+}
+.post a:visited {
+  color: #ffcf93;
+}
+.post a:hover {
+  color: #ffcf93;
+}
 
 .post-title {
   display: inline-block;
@@ -269,10 +302,11 @@ body {
   line-height: 1.2em;
 }
 .post-title a {
-  color: #91ccf2;
+  color: #91ccf2 !important;
   text-decoration: none;
 }
 .post-title a:hover {
+  color: #ffcf93;
   text-decoration: underline;
 }
 

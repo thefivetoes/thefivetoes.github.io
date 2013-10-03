@@ -10,7 +10,8 @@ hey guys, im going to start this blog. its not that i think i have a lot to talk
 
 as of right now, i don't really have any particular goals for any of this. that can maybe come later. if it doesn't, thats probably fine too. 
 
-- on focus
+on focus
+--------
 or rather, on a lack of focus. first, this was going to (partially) be a learning experience using [expression engine](http://ellislab.com/expressionengine). i've heard some good things about it, and have been meaning to check it out. but maybe using a powerful CMS like that is sort of overkill for a blog. so i decided on [jekyll](http://jekyllrb.com), which is a static site generator. more on that in a future post. 
 
 before i even wrote this first post, i heard about [ghost](http://ghost.org/features/), which is a nodejs blogging platform. that also seems like maybe a bit of overkill, but its a little intriguing. we will see what happens.

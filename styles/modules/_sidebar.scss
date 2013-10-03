@@ -1,0 +1,10 @@
+.sidebar {
+  background: #f0f;
+  height: 300px;
+  
+  @include breakpoint($breakpoint-large){
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+  }
+}
