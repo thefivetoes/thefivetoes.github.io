@@ -109,17 +109,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/scripts\/site.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scripts\/site.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/scripts\/site.min.js",
-      "fileType" : 64
-    },
     "\/_site\/scripts\/modernizr-2.5.3.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -129,6 +118,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/_site\/scripts\/modernizr-2.5.3.min.min.js",
+      "fileType" : 64
+    },
+    "\/scripts\/site.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scripts\/site.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/scripts\/site.min.js",
       "fileType" : 64
     },
     "\/_site\/styles\/site.min.css" : {
@@ -161,6 +161,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/_site\/template.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/template.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/_site\/scripts\/modernizr-2.5.3.min.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -171,15 +180,6 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/_site\/scripts\/modernizr-2.5.3.min.min.min.js",
       "fileType" : 64
-    },
-    "\/_site\/template.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/template.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/_site\/scripts\/overrides.js" : {
       "ignoreWasSetByUser" : 0,
@@ -213,6 +213,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/scripts\/jquery-1.7.2.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scripts\/jquery-1.7.2.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/scripts\/jquery-1.7.2.min.min.js",
+      "fileType" : 64
+    },
     "\/styles\/globals.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -233,17 +244,6 @@
       "inputAbbreviatedPath" : "\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/scripts\/jquery-1.7.2.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scripts\/jquery-1.7.2.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/scripts\/jquery-1.7.2.min.min.js",
-      "fileType" : 64
     },
     "\/scripts\/modernizr-2.5.3.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -296,6 +296,15 @@
       "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
+    "\/styles\/site.min.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/styles\/site.min.css",
+      "outputAbbreviatedPath" : "\/No Output Path",
+      "fileType" : 16
+    },
     "\/styles\/defaults.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -307,15 +316,6 @@
       "outputAbbreviatedPath" : "\/styles\/defaults.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/styles\/site.min.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/styles\/site.min.css",
-      "outputAbbreviatedPath" : "\/No Output Path",
-      "fileType" : 16
     },
     "\/styles\/site.scss" : {
       "ignoreWasSetByUser" : 0,
