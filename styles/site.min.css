@@ -250,7 +250,6 @@ a {
 }
 
 .sidebar {
-  background: #f0f;
   height: 300px;
 }
 @media (min-width: 60em) {
