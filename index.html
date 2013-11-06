@@ -5,7 +5,17 @@ title: thefivetoes
 
 <div id="home">
   <!--<h1>Posts</h1>-->
-  <div class="sidebar"></div>
+  <div class="sidebar">
+    <nav>
+      <h2 class="sidebar-title">menu</h2>
+      <ul class="main-nav">
+        <li><a href="/about">about</a></li>
+      </ul>
+      <ul class="secondary-nav">
+        <li><a href="http://twitter.com/thefivetoes" title="@thefivetoes">twitter</a></li>
+      </ul>
+    </nav>
+  </div>
   <ul class="posts">
     {% for post in site.posts %}
       <li>

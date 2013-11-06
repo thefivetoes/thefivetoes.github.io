@@ -1,10 +1,45 @@
 .sidebar {
   //background: #f0f;
-  height: 300px;
+  text-align: center;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #eee;  
   
   @include breakpoint($breakpoint-large){
     display: inline-block;
     width: 25%;
     vertical-align: top;
+    text-align: left;
+    border-bottom: none; 
+  }
+}
+
+.sidebar-title {
+  margin-top: 0;
+}
+
+.main-nav {
+  li {
+    a { 
+      text-decoration: none;
+      color: $color-b;
+      
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.secondary-nav {
+  li {
+    a { 
+      text-decoration: none;
+      color: $color-b;
+      
+      &:hover{
+        text-decoration: underline;
+      }
+    }
   }
 }

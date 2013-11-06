@@ -250,14 +250,39 @@ a {
 }
 
 .sidebar {
-  height: 300px;
+  text-align: center;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #eee;
 }
 @media (min-width: 60em) {
   .sidebar {
     display: inline-block;
     width: 25%;
     vertical-align: top;
+    text-align: left;
+    border-bottom: none;
   }
+}
+
+.sidebar-title {
+  margin-top: 0;
+}
+
+.main-nav li a {
+  text-decoration: none;
+  color: #aa99f4;
+}
+.main-nav li a:hover {
+  text-decoration: underline;
+}
+
+.secondary-nav li a {
+  text-decoration: none;
+  color: #aa99f4;
+}
+.secondary-nav li a:hover {
+  text-decoration: underline;
 }
 
 .posts {
@@ -313,7 +338,7 @@ a {
   display: inline-block;
   font-size: .7em;
   line-height: 1.2em;
-  color: #666;
+  color: #eee;
 }
 
 .post-content {
@@ -323,5 +348,4 @@ a {
 #wrap > footer > .page-segment {
   padding-top: 1em;
   margin-top: 1em;
-  border-top: 1px solid #eee;
 }
