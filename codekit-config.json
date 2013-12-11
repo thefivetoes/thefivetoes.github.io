@@ -1,17 +1,26 @@
 {
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
-  "creatorBuild" : "8376",
+  "creatorBuild" : "8403",
   "files" : {
-    "\/_site\/scripts\/jquery-1.7.2.min.min.js" : {
+    "\/styles\/site.min.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/scripts\/jquery-1.7.2.min.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/_site\/scripts\/jquery-1.7.2.min.min.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/styles\/site.min.css",
+      "outputAbbreviatedPath" : "\/No Output Path",
+      "fileType" : 16
+    },
+    "\/images\/posts\/video-on-off-switch-screenshot-on.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/posts\/video-on-off-switch-screenshot-on.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/posts\/video-on-off-switch-screenshot-on.png",
+      "initialSize" : 741451,
+      "fileType" : 8192
     },
     "\/_site\/styles\/site.legacy.min.css" : {
       "ignoreWasSetByUser" : 0,
@@ -54,18 +63,6 @@
       "outputAbbreviatedPath" : "\/_site\/scripts\/site.min.min.js",
       "fileType" : 64
     },
-    "\/styles\/modules\/_header.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/styles\/modules\/_header.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/styles\/modules\/_header.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/styles\/modules\/_footer.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -75,6 +72,18 @@
       "outputStyle" : 3,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/styles\/modules\/_footer.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/styles\/modules\/_header.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/styles\/modules\/_header.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/styles\/modules\/_header.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -140,6 +149,28 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/images\/posts\/video-on-off-switch-screenshot-off.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/posts\/video-on-off-switch-screenshot-off.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/posts\/video-on-off-switch-screenshot-off.png",
+      "initialSize" : 740480,
+      "fileType" : 8192
+    },
+    "\/images\/posts\/video-on-off-switch-screenshot-off.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/posts\/video-on-off-switch-screenshot-off.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/posts\/video-on-off-switch-screenshot-off.jpg",
+      "initialSize" : 89218,
+      "fileType" : 4096
+    },
     "\/_layouts\/post.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -161,6 +192,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/_site\/images\/posts\/video-on-off-switch-screenshot-off.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/images\/posts\/video-on-off-switch-screenshot-off.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/_site\/images\/posts\/video-on-off-switch-screenshot-off.jpg",
+      "initialSize" : 89218,
+      "fileType" : 4096
+    },
     "\/_site\/template.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -169,17 +211,6 @@
       "inputAbbreviatedPath" : "\/_site\/template.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/_site\/scripts\/modernizr-2.5.3.min.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/scripts\/modernizr-2.5.3.min.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/_site\/scripts\/modernizr-2.5.3.min.min.min.js",
-      "fileType" : 64
     },
     "\/_site\/scripts\/overrides.js" : {
       "ignoreWasSetByUser" : 0,
@@ -222,6 +253,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/_site\/images\/posts\/video-on-off-switch-screenshot-on.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/images\/posts\/video-on-off-switch-screenshot-on.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/_site\/images\/posts\/video-on-off-switch-screenshot-on.png",
+      "initialSize" : 741451,
+      "fileType" : 8192
+    },
     "\/styles\/globals.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -254,6 +296,15 @@
       "outputAbbreviatedPath" : "\/scripts\/jquery-1.7.2.min.min.js",
       "fileType" : 64
     },
+    "\/_site\/2013\/12\/11\/video-on-off-switch.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/2013\/12\/11\/video-on-off-switch.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/scripts\/modernizr-2.5.3.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -285,6 +336,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/_site\/images\/posts\/video-on-off-switch-screenshot-on.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/images\/posts\/video-on-off-switch-screenshot-on.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/_site\/images\/posts\/video-on-off-switch-screenshot-on.jpg",
+      "initialSize" : 89194,
+      "fileType" : 4096
+    },
     "\/_site\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -305,21 +367,23 @@
       "outputAbbreviatedPath" : "\/scripts\/site.min.min.js",
       "fileType" : 64
     },
+    "\/_site\/images\/posts\/video-on-off-switch-screenshot-off.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/images\/posts\/video-on-off-switch-screenshot-off.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/_site\/images\/posts\/video-on-off-switch-screenshot-off.png",
+      "initialSize" : 740480,
+      "fileType" : 8192
+    },
     "\/styles\/site.legacy.min.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/styles\/site.legacy.min.css",
-      "outputAbbreviatedPath" : "\/No Output Path",
-      "fileType" : 16
-    },
-    "\/styles\/site.min.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/styles\/site.min.css",
       "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
@@ -334,6 +398,17 @@
       "outputAbbreviatedPath" : "\/styles\/defaults.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/images\/posts\/video-on-off-switch-screenshot-on.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/posts\/video-on-off-switch-screenshot-on.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/posts\/video-on-off-switch-screenshot-on.jpg",
+      "initialSize" : 89194,
+      "fileType" : 4096
     },
     "\/styles\/site.scss" : {
       "ignoreWasSetByUser" : 0,

@@ -317,6 +317,9 @@ a {
 .post a:hover {
   color: #ffcf93;
 }
+.post img {
+  width: 100%;
+}
 
 .post-title {
   display: inline-block;
